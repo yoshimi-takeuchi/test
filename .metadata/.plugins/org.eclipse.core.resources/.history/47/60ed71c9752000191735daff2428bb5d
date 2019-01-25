@@ -1,0 +1,11 @@
+
+public class Purson {
+	public String name = null;
+	public int age=0;
+
+
+	public Person (tring name,int age){
+
+	}
+
+}
