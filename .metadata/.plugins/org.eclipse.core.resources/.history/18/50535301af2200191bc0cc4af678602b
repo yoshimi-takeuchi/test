@@ -1,0 +1,21 @@
+
+public class Android {
+
+	public static void main(String[] args) {
+		SmartPhone android=new SmartPhone();
+		
+		
+		andorid.play();
+		andorid.stop();
+		andorid.next();
+		andorid.back();
+		andorid.call();
+		iphone.mail();
+		iphone.photo();
+		iphone.internet();
+
+
+
+	}
+
+}

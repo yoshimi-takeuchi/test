@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="2" timestamp="1548743066471" analysisTimestamp="1548743065479" release="">
+  <Project projectName="TestDB3">
+    <Jar>C:\Users\internousdev\Desktop\workspace\workspace-takeuchi\test\TestDB3\bin\TestUserDAO.class</Jar>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-takeuchi\test\TestDB3\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\mysql-connector-java-5.1.47\mysql-connector-java-5.1.47-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\java\8\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\internousdev\Desktop\workspace\workspace-takeuchi\test\TestDB3\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="TestUserDAO">
+      <SourceLine classname="TestUserDAO" sourcefile="TestUserDAO.java" sourcepath="TestUserDAO.java"/>
+    </Class>
+    <Field classname="TestUserDAO" name="name" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="TestUserDAO" sourcefile="TestUserDAO.java" sourcepath="TestUserDAO.java"/>
+    </Field>
+    <SourceLine classname="TestUserDAO" start="10" end="10" startBytecode="7" endBytecode="7" sourcefile="TestUserDAO.java" sourcepath="TestUserDAO.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="TestUserDAO">
+      <SourceLine classname="TestUserDAO" sourcefile="TestUserDAO.java" sourcepath="TestUserDAO.java"/>
+    </Class>
+    <Field classname="TestUserDAO" name="password" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="TestUserDAO" sourcefile="TestUserDAO.java" sourcepath="TestUserDAO.java"/>
+    </Field>
+    <SourceLine classname="TestUserDAO" start="11" end="11" startBytecode="13" endBytecode="13" sourcefile="TestUserDAO.java" sourcepath="TestUserDAO.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 29 Jan 2019 14:50:58 +0900" total_classes="1" referenced_classes="11" total_bugs="2" total_size="9" num_packages="1" java_version="1.8.0_74" vm_version="25.74-b02" cpu_seconds="1.84" clock_seconds="0.99" peak_mbytes="843.88" alloc_mbytes="910.50" gc_seconds="0.00" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="1" total_size="9" priority_2="2">
+      <ClassStats class="TestUserDAO" sourceFile="TestUserDAO.java" interface="false" size="9" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="270" invocations="301" avgMicrosecondsPerInvocation="899" maxMicrosecondsPerInvocation="29558" standardDeviationMircosecondsPerInvocation="2463"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="201" invocations="2" avgMicrosecondsPerInvocation="100724" maxMicrosecondsPerInvocation="137096" standardDeviationMircosecondsPerInvocation="36372"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="59" invocations="301" avgMicrosecondsPerInvocation="196" maxMicrosecondsPerInvocation="2374" standardDeviationMircosecondsPerInvocation="229"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="51" invocations="11" avgMicrosecondsPerInvocation="4715" maxMicrosecondsPerInvocation="16806" standardDeviationMircosecondsPerInvocation="5579"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="51" invocations="11" avgMicrosecondsPerInvocation="4684" maxMicrosecondsPerInvocation="24020" standardDeviationMircosecondsPerInvocation="7120"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="33" invocations="59" avgMicrosecondsPerInvocation="569" maxMicrosecondsPerInvocation="3329" standardDeviationMircosecondsPerInvocation="672"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="32" invocations="11" avgMicrosecondsPerInvocation="2964" maxMicrosecondsPerInvocation="13309" standardDeviationMircosecondsPerInvocation="4091"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="28" invocations="268" avgMicrosecondsPerInvocation="104" maxMicrosecondsPerInvocation="6651" standardDeviationMircosecondsPerInvocation="421"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1548743045311" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1548743045330" release="" codeSize="9" numClasses="1"/>
+  </History>
+</BugCollection>

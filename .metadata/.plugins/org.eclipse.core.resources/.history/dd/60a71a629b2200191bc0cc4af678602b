@@ -1,0 +1,24 @@
+package collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.print.DocFlavor.STRING;
+
+
+public class SetSample {
+
+
+	public static void main(string[] agrs){
+		Set<STRING>set=new HashSet<String>();
+
+		//値のセットはaddメソッドを利用
+		set.add("value1);
+		set.add("value1);
+
+
+
+	}
+
+
+}
