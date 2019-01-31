@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="java.net.StandardSocketOptions"/>
 <fullyQualifiedTypeName name="javax.print.DocFlavor.STRING"/>
 <fullyQualifiedTypeName name="java.sql.SQLClientInfoException"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 </qualifiedTypeNameHistroy>
